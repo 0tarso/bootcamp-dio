@@ -1,0 +1,13 @@
+{
+  "name": "02-primeiro-projeto",
+  "version": "0.0.1",
+  "description": "Primeiro projeto nodeJs do bootcamp meuTudo-DIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "tailison-ramos",
+  "license": "ISC"
+}
