@@ -1,24 +1,65 @@
-const player1 = {
-  name: "Mario",
-  velocity: 4,
-  handling: 3,
-  power: 3,
-  score: 0
-}
+// const player1 = {
+//   name: "Mario",
+//   velocity: 4,
+//   handling: 3,
+//   power: 3,
+//   score: 0
+// }
 
-const player2 = {
-  name: "Luigi",
-  velocity: 3,
-  handling: 4,
-  power: 4,
-  score: 0
-}
+// const player2 = {
+//   name: "Luigi",
+//   velocity: 3,
+//   handling: 4,
+//   power: 4,
+//   score: 0
+// }
 
+
+const players = [
+  { name: "Mario", velocity: 4, handling: 3, power: 3, score: 0 },
+  { name: "Peach", velocity: 3, handling: 4, power: 2, score: 0 },
+  { name: "Yoshi", velocity: 2, handling: 4, power: 3, score: 0 },
+  { name: "Luigi", velocity: 3, handling: 4, power: 2, score: 0 },
+  { name: "Bowser", velocity: 5, handling: 2, power: 5, score: 0 },
+  { name: "Donkey Kong", velocity: 2, handling: 2, power: 5, score: 0 },
+]
+
+let player1
+let player2
 
 
 async function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
+
+async function showAnimationText(title) {
+  console.log(">>", title)
+
+  let consoleTextAnimation = ""
+  for (let i = 0; i < 4; i++) {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    consoleTextAnimation = consoleTextAnimation + "."
+
+    console.log(consoleTextAnimation)
+  }
+}
+
+async function getRandomPlayer() {
+  let playerIndex1 = (await rollDice() - 1)
+  let playerIndex2 = (await rollDice() - 1)
+
+  while (playerIndex1 === playerIndex2) {
+    playerIndex2 = (await rollDice() - 1)
+  }
+
+  player1 = players[playerIndex1]
+  player2 = players[playerIndex2]
+
+  await showAnimationText("Escolhendo players")
+
+}
+
+
 
 
 async function getRandomBlock() {
@@ -52,7 +93,8 @@ async function playRaceEngine(character1, character2) {
 
   for (let round = 1; round <= maxRound; round++) {
 
-    console.log(`\n⌚>> Rodada ${round} `)
+    await showAnimationText(`⌚ Rodada ${round}`)
+    // console.log(`\n⌚>> Rodada ${round} `)
 
     let block = await getRandomBlock()
     console.log(` Bloco -> ${block}`)
@@ -126,12 +168,12 @@ async function playRaceEngine(character1, character2) {
 
 
     if (totalTestSkill1 > totalTestSkill2) {
-      console.log(`${character1.name} marcou 1 ponto!`)
+      console.log(`${character1.name} marcou 1 ponto!\n`)
       character1.score++
     }
 
     else if (totalTestSkill2 > totalTestSkill1) {
-      console.log(`${character2.name} marcou 1 ponto!`)
+      console.log(`${character2.name} marcou 1 ponto!\n`)
       character2.score++
     }
     // else (
@@ -163,13 +205,15 @@ async function declareWinner(character1, character2) {
   }
 
   else {
-    console.log("Corrida terminou em empate")
+    console.log("\n --- Corrida terminou em empate ---")
   }
 }
 
 // Função main utilizando o auto invoke ()=>{}()
 (
   async function main() {
+    await getRandomPlayer()
+
     console.log("🚨Vamos correr!🚨 \n")
     console.log(`🏁 ${player1.name} x ${player2.name} \n`)
 
