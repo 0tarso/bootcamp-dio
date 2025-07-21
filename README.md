@@ -13,7 +13,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 - 🧰 TypeScript
 - 📱 React Native com Expo
 - ⚛️ Componentização
-- 🧭 React Navigation (Stack, Tabs)
+- 🧭 React Navigation
 - 🔗 Consumo de APIs
 - 🧠 React Hooks
 
@@ -66,16 +66,6 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   
 └── README.md 
 ```
-
-
-## 🌐 Conecte-se comigo
-
-💼 [LinkedIn](https://www.linkedin.com/in/0tarsodev)
-
-📁 [Portfólio](https://tailisondev.vercel.app)
-
----
-
 ## 🏁 Considerações
 Este bootcamp tem sido uma excelente oportunidade de aprofundar meus conhecimentos em desenvolvimento mobile com React Native, além de oferecer conexão com outros profissionais e estudantes da área.
 Estou documentando toda a jornada aqui — sinta-se à vontade para explorar e acompanhar meu progresso!
@@ -85,3 +75,12 @@ Estou documentando toda a jornada aqui — sinta-se à vontade para explorar e a
 Se ele te ajudou ou te inspirou de alguma forma, considere deixar uma ⭐️ estrela aqui no GitHub!
 
 📬 Ficarei feliz em trocar ideias, colaborar em projetos ou simplesmente bater um papo sobre tecnologia!
+
+## 🌐 Conecte-se comigo
+
+💼 [LinkedIn](https://www.linkedin.com/in/0tarsodev)
+
+📁 [Portfólio](https://tailisondev.vercel.app)
+
+---
+
