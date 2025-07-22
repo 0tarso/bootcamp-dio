@@ -25,7 +25,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Fundamentos com NodeJs
 
- 🔃Trabalhando com Node Modules
+ ✅Trabalhando com Node Modules
 
  🔃Gerenciando Pacotes NPM
 
