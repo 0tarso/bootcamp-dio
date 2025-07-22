@@ -63,6 +63,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   └── 05-esm-modules/
 ├── 🛠 projetos/              # Projetos completos entregues
 │   ├── projetoMario/
+│   ├── shopeeCart/
 │   
 └── README.md 
 ```
