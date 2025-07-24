@@ -60,10 +60,14 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 ├── 📚 aulas/                # Módulos de cursos com exemplos práticos
 │   ├── 02-primeiro-projeto/
 │   ├── 04-commonjs-modules/
-│   └── 05-esm-modules/
+│   ├── 05-esm-modules/
+│   ├── 07-npm-packages-basic/
+│   ├── 08-npm-scripts/
+│   ├── 09-npm-enviroment/
 ├── 🛠 projetos/              # Projetos completos entregues
 │   ├── projetoMario/
 │   ├── shopeeCart/
+│   ├── qr-password-terminal/
 │   
 └── README.md 
 ```
