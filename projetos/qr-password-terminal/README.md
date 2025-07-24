@@ -8,6 +8,35 @@ Bem-vindo ao **QR Password Terminal**! Este projeto incrível permite gerar QR C
 - 🔒 Gere senhas seguras diretamente no terminal
 - ⚡ Simples de usar e super rápido
 
+
+## 📁 Estrutura de Pastas
+
+```plaintext
+src/
+├── index.js                # Ponto de entrada da aplicação
+├── prompts-schema/         # Esquemas de perguntas para interação no terminal
+│   ├── schema-main.js
+│   ├── schema-password.js
+│   └── schema-qrCode.js
+├── services/               # Lógica de negócio separada por funcionalidade
+    │
+    ├── main/               # Fluxo principal da aplicação
+    │  ├── create.js
+    │  └── handle.js
+    │
+    ├── password/           # Geração e manipulação de senhas
+    │   ├── create.js
+    │   ├── handle.js
+    │   └── utils/
+    │       └── default-characters.js #Define as configurações padrão via .env
+    │
+    └── qr-code/            # Geração e manipulação de QR Codes
+      ├── create.js
+      └── handle.js
+```
+
+
+
 ## 📝 Considerações do Projeto
 
 O projeto, a primeira vista, pode parecer simples, mas possui algumas considerações importantes:
