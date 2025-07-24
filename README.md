@@ -72,7 +72,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 └── README.md 
 ```
 ## 🏁 Considerações
-Este bootcamp tem sido uma excelente oportunidade de aprofundar meus conhecimentos em desenvolvimento mobile com React Native, além de oferecer conexão com outros profissionais e estudantes da área.
+Busco nesse bootcamp uma excelente oportunidade de solidificar meus conhecimentos em Node, e também em React Native. Além de expandir minha rede de contatos na área.
 Estou documentando toda a jornada aqui — sinta-se à vontade para explorar e acompanhar meu progresso!
 
 
