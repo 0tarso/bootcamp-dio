@@ -29,7 +29,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Gerenciando Pacotes NPM
 
- 🔃TypeScript com NodeJs
+ ✅TypeScript com NodeJs
 
  🔃Introdução a Aplicações Web
 
