@@ -27,7 +27,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Trabalhando com Node Modules
 
- 🔃Gerenciando Pacotes NPM
+ ✅Gerenciando Pacotes NPM
 
  🔃TypeScript com NodeJs
 
