@@ -1,0 +1,19 @@
+{
+  "name": "10-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx --watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Tailison Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
