@@ -56,7 +56,6 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
 ```bash
 📁 bootcamp-meutudo-dio/
-├── 📘 anotações/             # Resumos, insights e links úteis
 ├── 📚 aulas/                # Módulos de cursos com exemplos práticos
 │   ├── 02-primeiro-projeto/
 │   ├── 04-commonjs-modules/
@@ -64,6 +63,8 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── 07-npm-packages-basic/
 │   ├── 08-npm-scripts/
 │   ├── 09-npm-enviroment/
+│   ├── 10-typescript/
+│   ├── 11-debug/
 ├── 🛠 projetos/              # Projetos completos entregues
 │   ├── projetoMario/
 │   ├── shopeeCart/
