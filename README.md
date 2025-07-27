@@ -31,7 +31,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅TypeScript com NodeJs
 
- 🔃Introdução a Aplicações Web
+ ✅Introdução a Aplicações Web
 
  🔃Criando APIs com NodeJs
 
@@ -65,7 +65,10 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── 09-npm-enviroment/
 │   ├── 10-typescript/
 │   ├── 11-debug/
-├── 🛠 projetos/              # Projetos completos entregues
+│   ├── int-desenvolvimento-api/
+│   ├── protocolo-http/
+│   ├── sobre-apps-web/
+├── 🛠 projetos/              # Projetos desenvolvidos
 │   ├── projetoMario/
 │   ├── shopeeCart/
 │   ├── qr-password-terminal/
