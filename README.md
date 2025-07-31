@@ -72,6 +72,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── projetoMario/
 │   ├── shopeeCart/
 │   ├── qr-password-terminal/
+│   ├── gerenciador-de-podcasts/
 │   
 └── README.md 
 ```
