@@ -73,6 +73,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── shopeeCart/
 │   ├── qr-password-terminal/
 │   ├── gerenciador-de-podcasts/
+│   ├── formula-one-api/
 │   
 └── README.md 
 ```
