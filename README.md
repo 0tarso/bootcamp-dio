@@ -33,7 +33,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Introdução a Aplicações Web
 
- 🔃Criando APIs com NodeJs
+ ✅Criando APIs com NodeJs
 
  🔃Boas Práticas de Programação
 
@@ -74,12 +74,13 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── qr-password-terminal/
 │   ├── gerenciador-de-podcasts/
 │   ├── formula-one-api/
+│   ├── formula-one-api-n-layers-arch/
 │   
 └── README.md 
 ```
 ## 🏁 Considerações
 Busco nesse bootcamp uma excelente oportunidade de solidificar meus conhecimentos em Node, e também em React Native. Além de expandir minha rede de contatos na área.
-Estou documentando toda a jornada aqui — sinta-se à vontade para explorar e acompanhar meu progresso!
+Estou documentando toda a jornada aqui. Sinta-se à vontade para explorar e acompanhar meu progresso!
 
 
 ⭐️ **Curtiu esse repositório?**  
