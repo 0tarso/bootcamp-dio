@@ -35,11 +35,11 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Criando APIs com NodeJs
 
- 🔃Boas Práticas de Programação
+ ✅Boas Práticas de Programação
 
- 🔃Introdução a React Native
+ ✅Introdução a React Native
 
- 🔃Fundamentos de Apps RN
+ ✅Fundamentos de Apps RN
  
  🔃Navegabilidade no React Native
 
@@ -75,6 +75,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── gerenciador-de-podcasts/
 │   ├── formula-one-api/
 │   ├── formula-one-api-n-layers-arch/
+│   ├── app-bat-sinal/
 │   
 └── README.md 
 ```
