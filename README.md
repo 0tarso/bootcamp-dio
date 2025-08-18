@@ -41,7 +41,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 
  ✅Fundamentos de Apps RN
  
- 🔃Navegabilidade no React Native
+ ✅Navegabilidade no React Native
 
  🔃Gerenciando Componentes React Native
  
