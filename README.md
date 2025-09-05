@@ -76,6 +76,8 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
 │   ├── formula-one-api/
 │   ├── formula-one-api-n-layers-arch/
 │   ├── app-bat-sinal/
+│   ├── app-bat-pass/
+│   ├── app-lamborghini/
 │   ├── portfolio-app/
 │   
 └── README.md 
