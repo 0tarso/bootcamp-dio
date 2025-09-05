@@ -43,7 +43,7 @@ Este repositório reúne todos os conteúdos, códigos, anotações e projetos d
  
  ✅Navegabilidade no React Native
 
- 🔃Gerenciando Componentes React Native
+ ✅Gerenciando Componentes React Native
  
  🔃Desenvolvimento AI Powered
 
